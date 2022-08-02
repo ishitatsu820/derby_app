@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   
   get 'goals/new'
   get 'goals/edit'
+  
+  get 'signup', to: 'users#new'
 end
