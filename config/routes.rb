@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get 'goals/edit'
   
   get 'signup', to: 'users#new'
+  
+  resources :users
 end
