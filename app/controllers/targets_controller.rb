@@ -3,6 +3,7 @@ class TargetsController < ApplicationController
   end
 
   def new
+    @target = Target.new
   end
 
   def edit
