@@ -6,7 +6,7 @@
     <%= form_with(model: @target, local: true) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
       <%= f.label :target %>
-      <%= f.text_field :name, class: 'form-control' %>
+      <%= f.text_field :target, class: 'form-control' %>
       
       <%= f.label :task %>
       <%= f.text_field :task, class: 'form-control' %>
